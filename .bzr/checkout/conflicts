@@ -1,0 +1,30 @@
+BZR conflict list format 1
+path: addfollowups.php.moved
+type: duplicate
+action: Moved existing file to
+conflict_path: addfollowups.php
+conflict_file_id: addfollowups.php-20100121202115-bvp7xodvxfwhezqp-1
+
+path: images/favicon.ico.moved
+type: duplicate
+action: Moved existing file to
+conflict_path: images/favicon.ico
+conflict_file_id: favicon.ico-20100121202115-bvp7xodvxfwhezqp-2
+
+path: includes/class_followups.php.moved
+type: duplicate
+action: Moved existing file to
+conflict_path: includes/class_followups.php
+conflict_file_id: class_followups.php-20100121202115-bvp7xodvxfwhezqp-3
+
+path: includes/comments.js.moved
+type: duplicate
+action: Moved existing file to
+conflict_path: includes/comments.js
+conflict_file_id: comments.js-20100121202115-bvp7xodvxfwhezqp-4
+
+path: includes/followup.js.moved
+type: duplicate
+action: Moved existing file to
+conflict_path: includes/followup.js
+conflict_file_id: followup.js-20100121202115-bvp7xodvxfwhezqp-5
