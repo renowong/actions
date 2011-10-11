@@ -120,7 +120,7 @@ $mysqli = new mysqli(DBSERVER, DBUSER, DBPWD, DB);
 			<fieldset>
 				<legend>Login</legend>
 					<p><img src="images/actions.png" /></p>
-					<p><label>Identifiant:</label> <input id="login" name="login" type="text" maxlength="10" /></p>
+					<p><label>Identifiant:</label> <input id="login" name="login" type="text" maxlength="25" /></p>
 					<p>Mot de passe:</label> <input id="password" name="password" type="password" maxlength="10"></p>
 					<div class="version"><?php echo $version ?></div>
 			</fieldset>
