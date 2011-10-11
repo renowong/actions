@@ -4,12 +4,6 @@ autosuggest, inquisitor style
 ================================================
 */
 
-body
-{
-	position: relative;
-}
-
-
 div.autosuggest
 {
 	position: absolute;

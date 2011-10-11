@@ -54,7 +54,14 @@ $addtask .= "			</select>
 		</tr>
 		<tr>
 			<th>Situation <img src=\"images/lock.png\" class=\"".($lock ? "" : "hidden")."\" border=\"0\" alt=\"Verrouill&eacute;\" /></th>
-			<td colspan=\"3\"><input name=\"title\" id=\"title\" type=\"text\" size=\"40\" maxlength=\"50\" value=\"$cTask->title\"".($lock ? " readonly" : "")."/></td>
+			<td colspan=\"3\">
+			<div id=\"wrapper\"><div id=\"content\">
+			<div>
+			<form method=\"get\" action=\"\" class=\"asholder\">
+			<input type=\"hidden\" id=\"testid\" value=\"\" style=\"font-size: 10px; width: 20px;\" disabled=\"disabled\" />
+			</form>
+			</div></div></div>
+			<input name=\"title\" id=\"title\" type=\"text\" size=\"40\" maxlength=\"50\" value=\"$cTask->title\"".($lock ? " readonly" : "")."/></td>
 		</tr>
 		<tr>
 			<th>Action/D&eacute;cision <img src=\"images/lock.png\" class=\"".($lock ? "" : "hidden")."\" border=\"0\" alt=\"Verrouill&eacute;\" /></th>
