@@ -200,7 +200,7 @@ $tasktableth = "<th style=\"width:200px;\"><a href=\"".order(projecttitle)."\">D
 	<!--autosuggest //-->
 	<script type="text/javascript">
 		var options_xml = {
-			script: function (input) { return "test.php?input="+input+"&testid="+document.getElementById('testid').value; },
+			script: function (input) { return "autosuggest_title.php?input="+input; },
 			varname:"input"
 		};
 		var as_xml = new bsn.AutoSuggest('title', options_xml);
