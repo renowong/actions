@@ -9,11 +9,11 @@ $mysqli = new mysqli(DBSERVER, DBUSER, DBPWD, DB);
                 exit();
         }
 
-$query = "SELECT `taches`.`title`, `taches`.`description` FROM `taches` WHERE `userid` = '$id' AND `active`='1'";
+$query = "SELECT DISTINCT `taches`.`title` FROM `taches` WHERE `userid` = '$id' AND `active`='1'";
 if ($result = $mysqli->query($query)) {
     while ($row = $result->fetch_assoc()) {
         $aUsers[]=$row['title'];
-        $aInfo[]=$row['description'];
+        //$aInfo[]=$row['description'];
     }
 }
 	

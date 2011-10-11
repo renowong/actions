@@ -7,7 +7,7 @@ $dbuser="actions";
 $dbpwd="actions";
 $dbport="3306"; //port 3306 par défaut
 $apppath=substr(strrchr($_SERVER['HTTP_REFERER'], "\/"), 1);
-$version="version 1b";
+$version="version 1c";
 
 // declare Constants
 define("TITRE", $titre);

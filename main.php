@@ -50,7 +50,7 @@ $tasktableth = "<th style=\"width:200px;\"><a href=\"".order(projecttitle)."\">D
 		<script type="text/javascript" src="includes/comments.js"></script>
 		
 		<!--Autosuggest //-->
-		<script type="text/javascript" src="js/bsn.AutoSuggest_2.1.3.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/bsn.AutoSuggest_2.1.3_comp.js" charset="utf-8"></script>
 		<link rel="stylesheet" href="css/autosuggest_inquisitor.css" type="text/css" media="screen" charset="utf-8" />
 	
 		<script type="text/javascript">
